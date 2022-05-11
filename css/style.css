@@ -37,3 +37,40 @@
   background-color: white;
   margin: 2px 0;
 }
+
+.form-option {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-option div {
+  display: flex;
+  justify-content: left;
+  gap: 8px;
+  width: 85%;
+  margin: auto;
+}
+
+legend {
+  font-size: large;
+  font-weight: 700;
+  margin: 2px 0;
+}
+
+textarea {
+  width: 85%;
+  height: auto;
+  border: none;
+  background-color: white;
+  margin: auto;
+}
+
+#submit {
+  padding: 8px;
+  background-color: greenyellow;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  margin-top: 8px;
+}
