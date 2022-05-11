@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: white;
+  text-align: center;
+  padding: 25px 0;
+}
+
+#surver-form {
+  background-color: #dedede;
+  width: 45%;
+  height: min-content;
+  margin: 5px auto;
+  padding: 50px 12px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: large;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: left;
+  align-items: center;
+}
+
+.form-control input,
+.form-control select {
+  width: 85%;
+  padding: 5px 3px;
+  border: none;
+  background-color: white;
+  margin: 2px 0;
+}
